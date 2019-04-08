@@ -1,0 +1,14 @@
+receptor = rec_pdbqt/BACE_3-oe.pdbqt 
+
+center_x = 31.3
+center_y = 6.0
+center_z = 15.0
+
+size_x = 20.00
+size_y = 18.00
+size_z = 20.00
+
+exhaustiveness = 50
+num_modes = 50
+seed = -1
+energy_range = 5
