@@ -4,7 +4,7 @@ mkdir lig_pdbqt rec_pdbqt docked_pdbqt docked_pdb
 vina="/data/users/sasmals/Software/autodock_vina_1_1_2_linux_x86/bin/vina"
 mgltools="/home/sukanya/Applications/mgltools_x86_64Linux2_1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24"
 
-#looping throught the 20 ligands
+#looping through the 20 ligands
 for i in $(seq 1 20)
 do
    echo $i
