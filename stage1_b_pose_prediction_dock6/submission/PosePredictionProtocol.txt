@@ -1,0 +1,30 @@
+# Name for the protocol
+Name: DOCK
+#
+# All software packages used and their versions:
+Software: DOCK v6.8 
+#
+# List of key parameters used for system preparation
+System Preparation Parameters: Assumed pH 7.4
+System Preparation Parameters: Tautomers not considered
+#
+# Plain-text description of system preparation method
+System Preparation Method: Ligand protonation state was generated at pH 4.5 using pKa Plugin from ChemAxon. Pdb4amber was used to renumber the protein residues in the PDB structures with only positive integer residue numbers. Pdbfixer was used to remove the ligand and the water molecules and to add the missing heavy atoms to the pdb structures of the receptors. Then, PDB2PQR server (http://nbcr-222.ucsd.edu/pdb2pqr_2.0.0/) was used to correct the protonation states at pH 4.5 and to fix the residue/atom names following AMBER naming scheme. Parmed was used to convert the resulting pqr file to a pdb file. OpenEye toolkits were used to check bond-order and connectivities. Lastly scripts in MGLTools (v 1.10) were used to prepare pdbqt files for AutoDock Vina.
+#
+# List any number of key computational parameters in the following lines:
+Pose Prediction Parameters: Grid score 
+Pose Prediction Parameters: Parameters same as in Dock tutorial except as listed below
+Pose Prediction Parameters: simplex_max_cycles 5
+Pose Prediction Parameters: simplex_score_converge 0.05 
+Pose Prediction Parameters: simplex_cycle_converge 0.1 
+Pose Prediction Parameters: cluster_rmsd_threshold 0.5 
+#
+# Provide free text description of your method below. Use as many lines as you need. 
+Pose Prediction Method: We have used the 20 BACE structures provided by the D3R Challenge to dock the ligands. The conformers from DOCK were visually inspected and compared to the most similar reference ligand(s) from the PDB database. The closest pose to the reference ligand was then selected. DOCK was not able to fit the binding poses for ligand 5, 13, 14, 15, 16, 17 and 18 in the same binding site as the reference ligand we used from the pdb structure 3K5C. After visual inspection of the provided pdb structure superimposed with reference 3K5C.pdb, we think that differences in side-chain orientation of GLN73(in provided BACE_14.pdb) may be affecting the binding pose predicted by DOCK.
+#
+# Yes/No questions:
+# Question 1: Did you use visual inspection to select, eliminate and/or manually adjust your final predicted poses?
+# Question 2: Did you use publicly available co-crystal structures of this protein with similar ligands to guide your pose predictions?
+#
+Answer 1: Yes
+Answer 2: Yes
