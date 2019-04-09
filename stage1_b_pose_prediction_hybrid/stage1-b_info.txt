@@ -1,0 +1,2 @@
+For BACE_2-BACE_4, BACE_6-BACE_16 we used mdin_3dv5 since the number of residues (377) in the receptors is the same as in 3dv5. 
+For BACE_1, BACE_3, BACE_5, BACE_17, BACE_18, BACE_19, BACE_20 - the mdin folder were separate.
