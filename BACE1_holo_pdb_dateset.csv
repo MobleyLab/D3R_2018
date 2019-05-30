@@ -1,4 +1,5 @@
-PDB ,Protein oligomerization state,Monomer sequence length,Inhibitor family,Smiles,Binding pocket residues,Binding pocket type,Other relevant information
+#list of all available BACE-1 co-crystal PDB structures as of Aug 2018
+#PDB ,Protein oligomerization state,Monomer sequence length,Inhibitor family,Smiles,Binding pocket residues,Binding pocket type,Other relevant information
 4K9H,Trimer,388,Hydroxyethylamine-based inhibitors,O[C@H](CNCc1cccc(c1)C(F)(F)F)[C@H](Cc1ccccc1)NC(=O)c1cc(N2CCCC2=O)c(=O)n(c1)C1CCCC1,"Asp228, Gly34, Asp32, Tyr71, Gly230, Phe108, Leu30, Thr232, Gln73, Asn233",1,
 4LC7,Monomer,406,Aminooxazoline,NC1=N[C@]2(CCCC[C@H]2O1)c1cccc(c1)-c1cncc(Cl)c1,"Asp93, Asp289, Leu91, Tyr132",2,
 3IGB,Monomer,415,Aminoimidazoles,NC1=NC(C2=NCCCN12)(c1ccccc1)c1ccccc1,"Asp94, Asp290, Leu92, Ser97, Ile108",2,
