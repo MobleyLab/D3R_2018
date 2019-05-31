@@ -8,4 +8,4 @@ This directory (and its subdirectories) provides the input files of the receptor
 - [`receptors`](receptors): directory containing the pdb files of the 20 pdb structures that we used to prepare the 154 receptor-ligand complexes; the 18 pdb structures starting with "BACE" were released by the D3R Grand Challenge organizers prior to Stage 2.
 - [`scripts`](scripts): directory containing the scripts that we used to conduct the parametrization, the MD simulations and the MM-GBSA calculations.
 - [`BACE_ID.txt`](BACE_ID.txt): file containing all the IDs of the 154 ligands for the Stage 2 affinity ranking subchallenge as provided by the D3R organizers.
--[`Table_S2_referencePDB_list.csv`](Table_S2_referencePDB_list.csv): list of the ligands and the respective reference pdbs used in Stage 2 affinity ranking subchallenge.
+- [`Table_S2_referencePDB_list.csv`](Table_S2_referencePDB_list.csv): list of the ligands and the respective reference pdbs used in Stage 2 affinity ranking subchallenge.
