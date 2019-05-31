@@ -18,5 +18,5 @@ This directory (and its subdirectories) provides the input files that we used to
 - [`mdin_BACE_18`](mdin_BACE_18): directory containing the MD simulation files for the BACE-1 complexes having BACE_18, pdb structure released by the D3R organizers at the end of Stage 1a, as a reference structure.
 - [`mdin_BACE_19`](mdin_BACE_19): directory containing the MD simulation files for the BACE-1 complexes having BACE_19, pdb structure released by the D3R organizers at the end of Stage 1a, as a reference structure.
 - [`mdin_BACE_20`](mdin_BACE_20): directory containing the MD simulation files for the BACE-1 complexes having BACE_20, pdb structure released by the D3R organizers at the end of Stage 1a, as a reference structure.
-- [`mdin_BACE_5`](mdin_BACE_5): directory containing the MD simulation files for the BACE-1 complexes having BACE_55555, pdb structure released by the D3R organizers at the end of Stage 1a, as a reference structure.
+- [`mdin_BACE_5`](mdin_BACE_5): directory containing the MD simulation files for the BACE-1 complexes having BACE_5, pdb structure released by the D3R organizers at the end of Stage 1a, as a reference structure.
 
