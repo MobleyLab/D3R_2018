@@ -1,4 +1,4 @@
-# MD simulations input files 
+# Input files for Stage 1a affinity ranking subchallenge
 
 This directory (and its subdirectories) provides the input files of the receptors (pdb files) and the 154 ligands (mol2 files) that we prepared for Stage 1a affinity ranking subchallenge. Here, we also provide all the scripts that we used to parametrize the receptors and the ligands using amber and tleap, respectively. Moreover, the scripts used to perform MD simulations and MM-GBSA calculations are available in this directory.
  
