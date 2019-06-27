@@ -1,0 +1,5 @@
+folder lig_mol2_prot contains 3D structures of all the ligands in mol2 format
+rec_pdb contains 3D structures of the receptors used for docking. The receptors were provided by the D3R organizers and the names are according to the ligand present in the co-crystal structures.
+folder config contains config.txt files needed by AutoDock Vina. The name of the ligand is present in the file name.
+submission-feqqi contains the files we submitted at the end of the challenge.
+run_AutoDock_Vina.sh is used for converting the receptor and ligand files to AutoDock format (pdbqt), docking the ligands, and converting the output pdbqt files back to pdb format. 
